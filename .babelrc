@@ -1,0 +1,23 @@
+{
+    "presets": [
+        [
+            "@babel/preset-env",
+            {
+                "targets": {
+                    "esmodules": true
+                }
+            }
+        ],
+        [
+            "@babel/preset-react",
+            {
+                "runtime": "automatic"
+            }
+        ],
+        "@babel/preset-typescript"
+    ],
+    "plugins": [
+        "transform-import-meta",
+        "@babel/plugin-transform-modules-commonjs"
+    ]
+}

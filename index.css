@@ -1,0 +1,23 @@
+.noscript-warning {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #dc2626;
+    /* Vermelho */
+    color: white;
+    padding: 12px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.noscript-icon {
+    width: 20px;
+    height: 20px;
+    stroke: white;
+}
